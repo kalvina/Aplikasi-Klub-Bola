@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tv_NamaTim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Nama Tim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_NamaTim">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/strdeskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=":null,&quot;idAPIfootball&quot;:&quot;2448&quot;,&quot;intLoved&quot;:null,&quot;strTeam&quot;:&quot;Bali United&quot;,&quot;strTeamShort&quot;:null,&quot;strAlternate&quot;:&quot;Bali United Football Club, BUFC&quot;,&quot;intFormedYear&quot;:&quot;2015&quot;,&quot;strSport&quot;:&quot;Soccer&quot;,&quot;strLeague&quot;:&quot;Indonesian Super League&quot;,&quot;idLeague&quot;:&quot;4790&quot;,&quot;strLeague2&quot;:&quot;AFC Cup&quot;,&quot;idLeague2&quot;:&quot;4804&quot;,&quot;strLeague3&quot;:&quot;&quot;,&quot;idLeague3&quot;:null,&quot;strLeague4&quot;:&quot;&quot;,&quot;idLeague4&quot;:null,&quot;strLeague5&quot;:&quot;&quot;,&quot;idLeague5&quot;:null,&quot;strLeague6&quot;:&quot;&quot;,&quot;idLeague6&quot;:null,&quot;strLeague7&quot;:&quot;&quot;,&quot;idLeague7&quot;:null,&quot;strDivision&quot;:null,&quot;strManager&quot;:&quot;&quot;,&quot;strStadium&quot;:&quot;Kapten I Wayan Dipta Stadium&quot;,&quot;strKeywords&quot;:&quot;Serdadu Tridatu&quot;,&quot;strRSS&quot;:&quot;&quot;,&quot;strStadiumThumb&quot;:&quot;https:\/\/www.thesportsdb.com\/images\/media\/team\/stadium\/vlig541587834456.jpg&quot;,&quot;strStadiumDescription&quot;:&quot;Kapten I Wayan Dipta Stadium, is a multi-purpose stadium in Gianyar Regency, Bali, Indonesia, and the home of Indonesia Liga 1 club Bali United. It has a capacity of 25,081 spectators.&quot;,&quot;strStadiumLocation&quot;:&quot;Gianyar Regency, Bali&quot;,&quot;intStadiumCapacity&quot;:&quot;25081&quot;,&quot;strWebsite&quot;:&quot;www.baliutd.com&quot;,&quot;strFacebook&quot;:&quot;www.facebook.com\/OfficialBaliUnited&quot;,&quot;strTwitter&quot;:&quot;twitter.com\/baliutd&quot;,&quot;strInstagram&quot;:&quot;www.instagram.com\/baliunitedfc&quot;,&quot;strDescriptionEN&quot;:&quot;Bali United Football Club is a professional association football club based in Gianyar, Bali, Indonesia, that competes in the Liga 1, the top tier of Indonesian football. The club was founded in 2015, following Putra Samarinda's relocation to Gianyar from Samarinda, when it adopted its present name, badge, and colours.\r\n\r\nBased at the Kapten I Wayan Dipta Stadium, the club competed as Bali United from the start of the 2015 season. After four seasons in Liga 1, they won their first top-level football championship in 2019. They are one of only seven clubs to have won the Liga 1 since its inception in 2008. The club's previous highest ever finish was second place in the top flight, in 2017.\r\n\r\nBali United was the first professional football club in Indonesia and Southeast Asia, also second in Asia after Guangzhou Evergrande, to go public after being floated on the Indonesia Stock Exchange on 17 June 2019. PT Bali Bintang Sejahtera Tbk released as much as 2 billion shares of the total issued and paid up capital after the initial public offering (IPO). Shares were set to go on sale for between IDR 120 and IDR 180 each, and actually became IDR 175 by the launch of the IPO on 10 June.&quot;,&quot;strDescriptionDE&quot;:null,&quot;strDescriptionFR&quot;:null,&quot;strDescriptionCN&quot;:null,&quot;strDescriptionIT&quot;:null,&quot;strDescriptionJP&quot;:null,&quot;strDescriptionRU&quot;:null,&quot;strDescriptionES&quot;:null,&quot;strDescriptionPT&quot;:null,&quot;strDescriptionSE&quot;:null,&quot;strDescriptionNL&quot;:null,&quot;strDescriptionHU&quot;:null,&quot;strDescriptionNO&quot;:null,&quot;strDescriptionIL&quot;:null,&quot;strDescriptionPL&quot;:null,&quot;strGender&quot;:&quot;Male&quot;,&quot;strCountry&quot;:&quot;Indonesia&quot;,&quot;strTeamBadge&quot;:&quot;https:\/\/www.thesportsdb.com\/images\/media\/team\/badge\/lwwwg81583008136.png&quot;,&quot;strTeamJersey&quot;:&quot;https:\/\/www.thesportsdb.com\/images\/media\/team\/jersey\/s12vvv1587898131.png&quot;,&quot;strTeamLogo&quot;:null,&quot;strTeamFanart1&quot;:null,&quot;strTeamFanart2&quot;:null,&quot;strTeamFanart3&quot;:null,&quot;strTeamFanart4&quot;:null,&quot;strTeamBanner&quot;:&quot;https:\/\/www.thesportsdb.com\/images\/media\/team\/banner\/9tf0v11587836164.jpg&quot;,&quot;strYoutube&quot;:&quot;www.youtube.com\/channel\/UCgzKxL4ofFySn7zp-adnhNQ&quot;,&quot;strLocked&quot;:&quot;unlocked&quot;},{&quot;idTeam&quot;:&quot;139350&quot;,&quot;idSoccerXML&quot;:null,&quot;idAPIfootball&quot;:&quot;2443&quot;,&quot;intLoved&quot;:null,&quot;strTeam&quot;:&quot;Bhayangkara FC&quot;,&quot;strTeamShort&quot;:null,&quot;strAlternate&quot;:&quot;\tBhayangkara Football Club&quot;,&quot;intFormedYear&quot;:&quot;2010&quot;,&quot;strSport&quot;:&quot;Soccer&quot;,&quot;strLeague&quot;:&quot;Indonesian Super League&quot;,&quot;idLeague&quot;:&quot;4790&quot;,&quot;strLeague2&quot;:null,&quot;idLeague2&quot;:null,&quot;strLeague3&quot;:null,&quot;idLeague3&quot;:null,&quot;strLeague4&quot;:null,&quot;idLeague4&quot;:null,&quot;strLeague5&quot;:null,&quot;idLeague5&quot;:null,&quot;strLeague6&quot;:null,&quot;idLeague6&quot;:null,&quot;strLeague7&quot;:null,&quot;idLeague7&quot;:null,&quot;strDivision&quot;:null,&quot;strManager&quot;:&quot;&quot;,&quot;strStadium&quot;:&quot;PTIK Stadium&quot;,&quot;strKeywords&quot;:&quot;The Guardian&quot;,&quot;strRSS&quot;:&quot;&quot;,&quot;strStadiumThumb&quot;:null,&quot;strStadiumDescription&quot;:&quot;PTIK International Stadium is a football stadium in the City of South Jakarta, Indonesia. The stadium has a capacity of 3,000 people.\r\n\r\nThe stadium is owned by the Indonesian National Police. It is located in the center of POLRI Institute for Higher Learning (PTIK) and is the home base of Football Association of South Jakarta and Bhayangkara Football Club.&quot;,&quot;strStadiumLocation&quot;:&quot;South Jakarta, Jakarta Indonesia&quot;,&quot;intStadiumCapacity&quot;:&quot;3000&quot;,&quot;strWebsite&quot;:&quot;bhayangkara-footballclub.com&quot;,&quot;strFacebook&quot;:&quot;www.facebook.com\/bhayangkarafc2016\/&quot;,&quot;strTwitter&quot;:&quot;twitter.com\/BhayangkaraFC&quot;,&quot;strInstagram&quot;:&quot;www.instagram.com\/bhayangkarafc&quot;,&quot;strDescriptionEN&quot;:&quot;Bhayangkara Football Club, is an Indonesian professional football club based in Jakarta, Indonesia. They currently compete in the Liga " />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

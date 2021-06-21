@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Aplikasi Klub Bola</string>
+    <string name="utama">Utama</string>
+    <string name="profil">Profil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
